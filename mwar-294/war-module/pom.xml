@@ -18,8 +18,8 @@
 
     <!-- No transitive dependencies of a provided dependency should be packaged -->
     <dependency>
-      <groupId>test</groupId>
-      <artifactId>jar-project</artifactId>
+      <groupId>test.MWAR-294</groupId>
+      <artifactId>jar-module</artifactId>
       <version>1.0-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
