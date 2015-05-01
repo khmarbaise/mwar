@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>com.qsi</groupId>
 		<artifactId>TestProject</artifactId>
-		<version>SNAPSHOT</version>
+		<version>1.0-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>TestEAR</artifactId>
