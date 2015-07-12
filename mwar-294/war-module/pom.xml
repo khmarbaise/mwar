@@ -9,7 +9,9 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <groupId>test.MWAR-294</groupId>
   <artifactId>war-module</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>Test MWAR-294 (war-module)</name>
@@ -45,20 +47,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <plugins>
-      <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-war-plugin</artifactId>
-          <configuration>
-            <overlays>
-              <overlay>
-                <groupId>org.apache.axis2</groupId>
-                <artifactId>axis2-webapp</artifactId>
-              </overlay>
-            </overlays>
-          </configuration>
-      </plugin>
-    </plugins>
   </build>
 
 </project>

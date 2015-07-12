@@ -9,7 +9,9 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <groupId>test.MWAR-294</groupId>
   <artifactId>jar-module</artifactId>
+  <version>1.0-SNAPSHOT</version>
 
   <name>Test MWAR-294 (jar-module)</name>
 
